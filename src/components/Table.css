@@ -1,0 +1,23 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+.table th,
+.table td {
+  border: 1px solid #e5e7eb;
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+}
+
+.table th {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
